@@ -1,0 +1,31 @@
+{
+  "name": "FrontEndTest-Rokk3rlabs",
+  "version": "1.0.0",
+  "description": "Rokkerlabs FronTendTest by Keily Salinas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeiSalinas2/FrontEndTest-Rokk3rlabs.git"
+  },
+  "author": "Keily Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeiSalinas2/FrontEndTest-Rokk3rlabs.git"
+  },
+  "dependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
