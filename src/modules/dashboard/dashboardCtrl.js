@@ -29,7 +29,7 @@ angular.module('app.dashboard', [])
         _.forEach(info, function(data) {
           zones.push(data.zoneId);
           count.push(data.data.count);
-          speed.push(data.data.count);
+          speed.push(data.data.speed);
           time.push(data.data.time);
         });
 
