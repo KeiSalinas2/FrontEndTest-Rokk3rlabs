@@ -1,0 +1,39 @@
+<div class="news">
+	<div class="news-container" ng-repeat="item in data">
+		<div class="header">
+			<div class="watch" ng-if="!item.watched">
+				<h3>{{item.title}}</h3>
+				<h4>{{item.date}}</h4>
+			</div>
+			<div class="watched" ng-if="item.watched">
+				<a href="">
+					<i class="fa fa-eye-slash" aria-hidden="true"></i>
+					<span>Watched</span>
+				</a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="title">
+				{{item.title2}}
+			</div>
+			<div class="image" ng-if="item.img">
+				<img class="" ng-src="https://unsplash.it/300/200/?random">
+			</div>
+			<div class="description">
+				{{item.description}}
+			</div>
+		</div>
+		<div class="footer">
+			<a href="">
+				<i class="fa fa-suitcase" aria-hidden="true"></i>
+			</a>
+			<a href="">
+				<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+				<span>{{item.likes}}</span>
+			</a>
+			<a href="">
+				<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+</div>
