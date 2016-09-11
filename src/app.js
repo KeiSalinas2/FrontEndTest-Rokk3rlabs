@@ -24,6 +24,12 @@ angular.module('app.controller', [])
 
     $scope.currentView = 'dashboard';
 
+    $scope.nav = true;
+
+    $scope.showNav = function(nav) {
+      $scope.nav = nav;
+    };
+
     $scope.templates = {
       header: 'templates/base/header_tpl.html',
       aside: 'templates/base/aside_tpl.html'
