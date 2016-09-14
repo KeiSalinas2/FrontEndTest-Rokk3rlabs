@@ -12,11 +12,9 @@ angular.module('app.dashboard', [])
         loadFile().then(function(res){
 
           $scope.loadData(res.data, false);
-
           setInterval(function(){
             $scope.loadData(res.data, true);
-          }, 100000);
-
+          }, 1000);
         })
       };
 
@@ -34,9 +32,9 @@ angular.module('app.dashboard', [])
         });
 
         if(interval){
-          count = _.shuffle(counts);
+          count = _.shuffle(count);
           speed = _.shuffle(speed);
-          avg = _.shuffle(avg);
+          time = _.shuffle(time);
         }
 
         $scope.countChart(count, zones);

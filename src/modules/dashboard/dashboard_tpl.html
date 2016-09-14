@@ -1,11 +1,44 @@
-<div class="center" ng-init="fillData()">
-	<div class="chart1">
-  	<canvas class="display-inline" id="speed" width="800" height="400"></canvas>
+<div class="dashboardContainer" ng-init="fillData()">
+	<div class="chart">
+		<div class="header">
+			<div class="title">
+				<h3>Speed Zone</h3>
+			</div>
+			<div class="icons">
+				<i class="fa fa-refresh" aria-hidden="true"></i>
+				<i class="fa fa-info-circle" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="body">
+  		<canvas class="display-inline" id="speed" width="800" height="400"></canvas>
+		</div>
 	</div>
-	<div class="chart2">
-  	<canvas class="display-inline" id="count" width="600" height="400"></canvas>
+	<div class="chart m-t-md m-r-md">
+		<div class="header">
+			<div class="title">
+				<h3>Count by Zones</h3>
+			</div>
+			<div class="icons">
+				<i class="fa fa-refresh" aria-hidden="true"></i>
+				<i class="fa fa-info-circle" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="body">
+  		<canvas class="display-inline" id="count" width="600" height="400"></canvas>
+		</div>
 	</div>
-	<div class="chart3">
-  	<canvas class="display-inline" id="average" width="200" height="400"></canvas>
+	<div class="chart m-t-md">
+		<div class="header">
+			<div class="title">
+				<h3>Speed Average</h3>
+			</div>
+			<div class="icons">
+				<i class="fa fa-refresh" aria-hidden="true"></i>
+				<i class="fa fa-info-circle" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="body">
+  		<canvas class="display-inline" id="average" width="200" height="400"></canvas>
+		</div>
 	</div>
 </div>

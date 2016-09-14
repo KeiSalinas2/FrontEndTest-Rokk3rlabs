@@ -121,7 +121,7 @@
   flex-wrap: wrap;
   margin: 40px;
   justify-content: center;
-  .speed{
+  .chart{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -132,45 +132,25 @@
     .header{
       display: flex !important;
       justify-content: space-between;
+      align-items: center;
+      .title{
+        color: @c-aside-icons;
+      }
       .icons{
         font-size: 1.5em;
         color: #D7D7D7;
       }
     }
   }
-  .count{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid #D7D7D7;
-    border-radius: 5px;
-    padding: 20px;
-    background: white;
-    margin-top: 15px;
-    margin-right: 15px;
-    .header{
-      display: flex !important;
-      justify-content: space-between;
-    }
-  }
-  .avg{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid #D7D7D7;
-    border-radius: 5px;
-    padding: 20px;
-    background: white;
-    margin-top: 15px;
-    .header{
-      display: flex !important;
-      justify-content: space-between;
-    }
-  }
-
 }
 
 .center{
   text-align: center;
 }
 
+.m-t-md{
+  margin-top: 20px;
+}
+.m-r-md{
+  margin-right: 20px;
+}
