@@ -14,7 +14,7 @@ angular.module('app.dashboard', [])
           $scope.loadData(res.data, false);
           setInterval(function(){
             $scope.loadData(res.data, true);
-          }, 1000);
+          }, 9000);
         })
       };
 
